@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.estaterentalapp.ui.home.homeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_property_list" />
+    <fragment
+        android:id="@+id/estateFragment"
+        android:name="com.example.estaterentalapp.ui.estate.estateFragment"
+        android:label="@string/title_estate"
+        tools:layout="@layout/fragment_estate_list" />
+    <fragment
+        android:id="@+id/roomFragment"
+        android:name="com.example.estaterentalapp.ui.room.roomFragment"
+        android:label="@string/title_rooms"
+        tools:layout="@layout/fragment_room_list" />
+</navigation>

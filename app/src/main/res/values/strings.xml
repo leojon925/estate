@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Estate Rental App</string>
+    <string name="title_home">Home</string>
+    <string name="title_estate">Estate</string>
+    <string name="title_rooms">Rooms</string>
+    <string name="title_user">User</string>
+    <string name="todo">TODO</string>
+</resources>
